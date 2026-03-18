@@ -1,7 +1,7 @@
 {
-  "name": "ct5192-frontend",
+  "name": "frontend",
   "version": "1.0.0",
-  "dependencies": {
-    "jquery": "3.4.0"
+  "scripts": {
+    "test": "echo \"No tests\""
   }
 }
