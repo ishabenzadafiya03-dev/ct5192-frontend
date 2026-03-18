@@ -18,7 +18,7 @@ jobs:
       - name: Run SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v4
         env:
-          FRONTEND_TOKEN: ${{ secrets.FRONTEND_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.FRONTEND_TOKEN }}
         with:
           args: >
             -Dsonar.organization=ishabenzadafiya03-dev
