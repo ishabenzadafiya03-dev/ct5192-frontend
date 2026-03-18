@@ -21,8 +21,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.organization=YOUR_ORG_KEY
-            -Dsonar.projectKey=YOUR_FRONTEND_PROJECT_KEY
+            -Dsonar.organization=ishabenzadafiya03-dev
+            -Dsonar.projectKey=ct5192-frontend
 
       - name: Run Snyk
         uses: snyk/actions/node@master
